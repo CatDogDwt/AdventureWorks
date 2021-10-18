@@ -1,3 +1,3 @@
 # AdventureWorks
-毕业设计
+大作业
 新闻发布系统
