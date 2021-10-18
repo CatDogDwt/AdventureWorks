@@ -1,0 +1,56 @@
+﻿.userinfotb{
+    color:black;
+    font-size:16px;
+    text-align:center;
+}
+
+.userinfotb img{
+    margin:50px 0 10px 0;
+    height:80px;
+    width:80px;
+    border-radius:50%;
+}
+
+.userinfoleft {
+    width: 80px;
+    height: 55px;
+    line-height: 55px;
+    text-align: center;
+    font-weight: 900;
+    color: #FF4E50;
+}
+.usercenter {
+    text-decoration: none;
+    color: black;
+    font-weight:900;
+    height:50px;
+    width:100%;
+    padding-bottom:5px;
+    border-bottom:2px solid black;
+    transition:0.5s;
+    margin-top:30px;
+}
+
+    .usercenter:hover {
+        color: #FF4E50;
+        font-size: 18px;
+        border-bottom: 2px solid #FF4E50;
+    }
+
+.userinfocancel{
+    height:30px;
+    width:80px;
+    border-radius:5px;
+    background-color:white;
+    margin-top:30px;
+    font-size:16px;
+    font-weight:900;
+    outline:none;
+    cursor:pointer;
+    transition:0.5s;
+}
+
+    .userinfocancel:hover {
+        background-color: #FF4E50;
+        color:white;
+    }

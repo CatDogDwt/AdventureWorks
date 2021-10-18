@@ -1,0 +1,52 @@
+﻿.listcontent {
+    width: 80%;
+    margin: 14% 10% 10% 10%;
+    padding: 10px; 
+}
+
+    .listcontent a {
+        color: black;
+        text-decoration: none;
+        height: 50px;
+        line-height: 50px;
+        display: block;
+    }
+
+    .listcontent .listicon {
+        height: 50px;
+        width: 50px;
+        background-image: url(../images/hotpoticon.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        float: left;
+    }
+
+    .listcontent h2 {
+        font-size: 16px;
+        font-weight: 500;
+        color: white;
+        font-family: '微软雅黑';
+        width: 92%;
+        margin-left: 70px;
+        height: 24px;
+        background-image: linear-gradient(to right, #FF4E50,rgba(255,255,255,0));
+        line-height: 24px;
+        padding: 5px;
+        margin-bottom:30px;
+    }
+
+.date-views-color {
+    color: #888;
+    font-size: 13px;
+}
+
+.gvListNews {
+    width: 90%;
+    margin-left: 76px;
+    text-align: center;
+}
+
+    .gvListNews tr {
+        border-bottom: 1px solid #F57C7C;
+    }
+

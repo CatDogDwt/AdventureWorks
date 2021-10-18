@@ -1,0 +1,147 @@
+﻿.container {
+    width: 20rem;
+    height: 28rem;
+    perspective: 1500px;
+    -webkit-perspective: 1500px;
+    -moz-perspective: 1500px;
+}
+
+.box {
+    position: absolute;
+    top: 2%;
+    left: 13%;
+    width: 20rem;
+    height: 28rem;
+    border-radius: 30px;
+    cursor: pointer;
+    backface-visibility: hidden;
+    transition: all 0.5s;
+    user-select: none;
+}
+
+.signup {
+    transform: rotateY(-108deg);
+}
+
+/*注册界面验证开始*/
+
+.txtRE-down {
+    position: absolute !important;
+    z-index:99;
+    left:100%;
+    top:0;
+}
+
+/*注册界面验证结束*/
+
+.container .form-content {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    /*面板背景*/
+    background-color: rgb(247,247,247);
+    box-shadow: 0 1px 3px rgba(0,0,0,0.3);
+}
+
+    .container .form-content .avtar {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        margin-top: 40px;
+    }
+
+        .container .form-content .avtar .pic {
+            position: relative;
+            width: 45px;
+            height: 45px;
+            overflow: hidden;
+            border-radius: 50%;
+        }
+
+            .container .form-content .avtar .pic img {
+                position: absolute;
+                top: 0;
+                left: 0;
+                right: 1000px;
+                width: 100%;
+                height: 100%;
+            }
+
+    .container .form-content h1 {
+        font-size: 1.6rem;
+        margin: 8px 0;
+        text-align: center;
+        color: #FF4E50;
+    }
+
+.container .form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+    .container .form input {
+        padding: 0.8rem;
+        padding-left: 3rem;
+        outline: none;
+        border: none;
+        border-radius: 15px;
+        box-shadow: 0 0 3px rgba(255,78,80,0.1);
+        margin: 5px;
+    }
+
+    .container .form div {
+        position: relative;
+    }
+
+        .container .form div .fa {
+            position: absolute;
+            top: 18px;
+            left: 25px;
+            color: black;
+        }
+
+    .container .form .btn {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+        .container .form .btn .btnLogin {
+            text-transform: uppercase;
+            padding: 8px;
+            border: none;
+            outline: none;
+            background-color: #F57C7C;
+            color: white;
+            width: 12rem;
+            border-radius: 30px;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+
+            .container .form .btn .btnLogin:hover {
+                background-color: #FF4E50;
+                color: white;
+                font-size: 15px;
+            }
+
+.container .btn-something {
+    color: #888;
+    font-size: 14px;
+    text-align: center;
+}
+
+    .container .btn-something span {
+        color: #FF4E50;
+        cursor: pointer;
+        font-weight: 500;
+    }
