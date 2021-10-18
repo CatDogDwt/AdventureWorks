@@ -7,6 +7,7 @@
             <asp:Label ID="lblCategoryName" runat="server" Text=""></asp:Label>
         </h2>
         <asp:GridView ID="gvListNews" CssClass="gvListNews" runat="server" AutoGenerateColumns="False" BorderWidth="0px" GridLines="None" EmptyDataText="该分类下暂无新闻" AllowPaging="True">
+            <pagersettings firstpagetext="首页" lastpagetext="尾页" mode="NextPrevious" nextpagetext="下一页" previouspagetext="上一页" />
             <columns>
                 <asp:TemplateField>
                     <itemtemplate>

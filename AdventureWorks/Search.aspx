@@ -6,6 +6,7 @@
     <div class="searchcontent">
         <h2>搜索结果</h2>
         <asp:GridView ID="gvSearchNews" runat="server" CssClass="gvSearchNews" AutoGenerateColumns="False" BorderWidth="0px" GridLines="None" EmptyDataText="没有搜索到相关新闻，请重新搜索" AllowPaging="True">
+            <PagerSettings FirstPageText="首页" LastPageText="尾页" Mode="NextPrevious" NextPageText="下一页" PreviousPageText="上一页" />
             <Columns>
                 <asp:TemplateField HeaderText="新闻类别">
                     <ItemTemplate>
