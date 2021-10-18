@@ -1,0 +1,135 @@
+﻿.UC-content {
+    height: 462px;
+    width: 55%;
+    background-color: rgba(255,255,255,0.1);
+    box-shadow: 0 25px 45px rgb(0 0 0 / 10%);
+    border: 1px solid rgba(255,255,255,0.1);
+    border-right: 1px solid rgba(255,255,255,0.1);
+    border-bottom: 1px solid rgba(255,255,255,0.1);
+    margin: 0 auto;
+    margin-top: 15%;
+    margin-bottom: 50px;
+}
+
+.UC-side {
+    height: 100%;
+    width: 16%;
+    background-color: rgba(255,255,255,0.1);
+    box-shadow: 0 25px 45px rgb(0 0 0 / 10%);
+    border: 1px solid rgba(255,255,255,0.1);
+    border-right: 1px solid rgba(255,255,255,0.1);
+    border-bottom: 1px solid rgba(255,255,255,0.1);
+    float:left;
+}
+
+    .UC-side li {
+        text-decoration: none;
+        text-align: center;
+        font-size: 16px;
+        background-color: rgba(255,255,255,0.1);
+        /*box-shadow: 0 25px 45px rgb(0 0 0 / 10%);*/
+        border: 1px solid rgba(255,255,255,0.1);
+        border-right: 1px solid rgba(255,255,255,0.1);
+        border-bottom: 1px solid rgba(255,255,255,0.1);
+        height: 65px;
+        line-height: 65px;
+        transition:0.3s;
+    }
+
+        .UC-side li:hover {
+            box-shadow: 0 0px 10px rgb(255 78 80 / 50%);
+        }
+
+.UC-side a{
+    color:black;
+    display:block;
+    height:100%;
+    width:100%;
+}
+
+.UCp{
+    float:right;
+    width:83%;
+    height:100%;
+}
+
+.UCPinfo img {
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    margin: 43px 0px 20px 70px;
+}
+
+.UClbID {
+    font-size: 18px;
+    height: 20px;
+    width: 150px;
+    display: block;
+    text-align: center;
+    margin: 95px 7%;
+    position: absolute;
+}
+
+.UClefttdcon {
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    width: 268px
+}
+
+.UCtxt {
+    border-radius: 10px;
+    padding: 5px 20px;
+    height: 20px;
+    width: 200px;
+    border: 0;
+    margin-left: 65px;
+    outline:none;
+    text-align:center;
+}
+
+.aabc{
+    height:50px;
+    width:50px;
+    line-height:50px;
+}
+
+#UpdatePanel1 {
+    height: 100%;
+    width: 100%;
+    display: inline;
+}
+
+.ban:hover {
+    cursor: not-allowed;
+}
+
+.UCbtn {
+    height: 30px;
+    width: 75px;
+    outline: none;
+    border-radius: 5px;
+    border: 0;
+    margin-top:20px;
+    transition:0.3s;
+    cursor:pointer;
+}
+
+    .UCbtn:hover {
+        animation: btnAnimate 1s infinite;
+        color:white;
+        background: linear-gradient(to right, #F57C7C, #FF4E50, #F57C7C);
+    }
+
+.UCbtnOK{
+    margin-left:200px;
+}
+
+.UCbtnCancle{
+    margin-left:90px;
+}
+
+.wid {
+    width: 110px;
+    margin-left: 265px;
+}
